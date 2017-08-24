@@ -12,6 +12,10 @@ export default class PostPage extends Component {
         <h1>
           Post: {this.props.id}
         </h1>
+        {/*
+          show /blog in the browser
+          but use pages/index.js file internally
+        */}
         <Link href="/" as="/blog">
           <a>Go back to the list of posts</a>
         </Link>

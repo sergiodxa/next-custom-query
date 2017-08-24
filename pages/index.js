@@ -6,6 +6,10 @@ export default () =>
   <div>
     {posts.map(id =>
       <div key={id} className="post">
+        {/*
+          show the /blog/:id url in the browser
+          but use the pages/post.js file with the id as a query internally
+        */}
         <Link href={`/post?id=${id}`} as={`/blog/${id}`}>
           <a>
             Go to post {id}
