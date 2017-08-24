@@ -1,0 +1,7 @@
+{
+  "name": "next-custom-query",
+  "alias": "next-custom-query",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
